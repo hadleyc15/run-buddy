@@ -415,6 +415,18 @@ background-image: url(../images/trainer-3.jpg);
     top: 200px;
     transition: 1s;
   }
+
+  .trainer-bio h3 {
+    font-size: 28px;
+    display: none;
+  }
+  
+  .trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+    display: none;
+  }
   
 .trainer-bio p {
     font-size: 17px;
@@ -669,6 +681,11 @@ background-image: url(../images/trainer-3.jpg);
     writing-mode: unset;
     grid-column: 1 / -1;
     grid-row: -1;
+  }
+
+  .trainer-img, .trainer-img h4, .trainer-img::after {
+    display: none;
+    display: block;
   }
 
 }
